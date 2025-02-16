@@ -49,9 +49,9 @@ const Room = ({ userNo, socket, setUsers, setUserNo }) => {
     );
   };
   return (
-    <div className="container-fluid">
+    <div className="w-full px-4">
       <div className="row">
-        <h1 className="display-5 pt-4 pb-3 text-center">
+        <h1 className="text-2xl font-bold text-center py-4 text-blue-600 animate-pulse">
           React Drawing App - users online:{userNo}
         </h1>
       </div>
